@@ -1,0 +1,11 @@
+PyYAML~=6.0
+selenium~=4.1.0
+Faker~=11.1.0
+allure-pytest
+requests~=2.20.0
+jsonpath
+configparser
+python3-xlib
+pyautogui~=0.9.53
+mysql-connector-python~=8.0.28
+python-dotenv

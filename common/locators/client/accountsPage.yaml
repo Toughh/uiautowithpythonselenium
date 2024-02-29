@@ -1,0 +1,26 @@
+lnkAccounts: mp_accounts
+lnkLiveAccounts: mp_accounts_live
+lnkDemoAccounts: mp_accounts_demo
+lblTradingAccountCard: card-trading-account
+lblTradingAccountNumber: tradingAccountNumber
+lblTradingAccountTier: //*[@id="trading-accounts"]/div[2]/div/div/div[3]/span[1]
+lblTradingAccountNumberPlatform: platformVersionDisplay
+lblTradingAccountNumberRegulatorName: regulatorName
+lblTradingAccountNumberLeverage: leverage
+lblTradingAccountCurrency: tradingCurrency
+btnTradingAccountDepositNow: //a[starts-with(@href, "/en/traders-cabinet/deposits?login=")]
+btnRequestAccount: .btn.btn-outline-primary.btn-rounded.bg-white
+lnkMT4: img[alt='MT4']
+lnkMT5: img[alt='MT5']
+lnkStandard: img[alt='maximus']
+lnkPro: img[alt='multibank-pro']
+lnkEcn: img[alt='ecn']
+btnRequestLiveAccountSubmit: trading_account_settings_submit
+lnkOpenLiveAccount: //a[@href="/en/traders-cabinet/application/?action=open-live-account"]
+
+
+lblCommissionAccountNumber: (//p[@class="mb-0 fs-nano"])[3]
+lblCommissionAccountNumberVal: (//p[@class='mb-0 tradingAccountNumber'])[2]
+lblBalanceCurrencyAmountCommissionAccount: (//h3[@class='mb-0'])[1]
+lblLeverageCommissionAccountVal: (//p[@class="leverage trading-account-meta"])[2]
+lblCurrencyCommissionAccountVal: (//p[@class="tradingCurrency trading-account-meta"])[2]

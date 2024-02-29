@@ -1,0 +1,11 @@
+lnkIb: mp_ibsection
+lnkRegisterClients: mp_ibsection_register
+lnkSubIb: mp_ibsection_subib
+lnkAccountStatus: mp_ibsection_accountstatus
+lnkClientStatus: mp_ibsection_clientstatus
+lnkClientDeposits: mp_ibsection_clientdeposits
+lnkClientWithdrawal: mp_ibsection_withdrawals
+selectCommissionAccount: select2-new_email_tradingAccount-container
+txtNewEmail: new_email_new_username_first
+txtConfirmEmail: new_email_new_username_second
+btnSubmit: new_email_submit

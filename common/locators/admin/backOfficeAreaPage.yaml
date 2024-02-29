@@ -1,0 +1,68 @@
+lnkAdministrator: mb_admin_administrator
+lnkBackofficeArea: mb_admin_backoffice_area
+lnkRealAccounts: mb_admin_backoffice_area_real_accounts
+lnkCampaignAccounts: mb_admin_backoffice_area_campaign_accounts
+txtEmail: mb_admin_portaluser_username
+txtTradingAccount: mb_admin_portaluser_tradingaccounts_login
+btnFilter: mb_admin_real_accounts_filter_btn
+btnFilterCampaign: mb_admin_campaign_accounts_filter_btn
+tblCampaignAccounts: table table-custom table-list sonata-ba-list mb_admin_list_campaignaccounts
+lnkId: (//a[starts-with(@href, '/manager/webit/')] [@class="sonata-link-identifier"])[1]
+ddBOIdStatus: s2id_filter_boIdStatus_value
+ddSelectBOIdStatus: filter_boIdStatus_value
+txtTradingAccounts: filter_PortalUser__TradingAccounts__login_value
+ddWlid: s2id_filter_PortalUser__wlid_value
+ddSelectWlid: filter_PortalUser__wlid_value
+ddHasAccount: s2id_filter_hasAccountFilter_value
+ddSelectHasAccount: filter_hasAccountFilter_value
+ddHasAttachment: s2id_filter_hasAttachmentFilter_value
+ddSelectHasAttachment: filter_hasAttachmentFilter_value
+lnkBOIdApprove: //a[starts-with(@href, '/manager/webit/forexcore/realprofile/approve_id/')]
+lnkCampaignBOIdApprove: //a[starts-with(@href, '/manager/webit/forexcore/realprofile/approve_id/')]
+lnkBOIdReject: //a[starts-with(@href, '/manager/webit/forexcore/realprofile/reject-document/')]
+lnkBOPORApprove: //a[starts-with(@href, '/manager/webit/forexcore/realprofile/approve_por/')]
+lnkBOPORReject: //a[starts-with(@href, '/manager/webit/forexcore/realprofile/reject-document/')]
+lnkConvertToIb: //a[starts-with(@href, '/manager/webit/forexcore/realprofile/convert_application_to_ib/')]
+lnkConvertToIc: //a[starts-with(@href, '/manager/webit/forexcore/realprofile/convert_application_to_ic/')]
+lblBOIdApproved: .status-badge.label.pull-left.bg-green
+lblBOPORApproved: .status-badge.label.pull-left.bg-green
+lblBOIdOrPORReject: .status-badge.label.pull-left.bg-red
+txtRejectNote: RejectDocument_reason
+btnRejectId: .btn-danger
+lnkForwardToCompliance: //*[@id="top-buttons-nav"]/ul/li[6]/a
+ddLogin: s2id_commission_account_login
+selectLogin: commission_account_login
+ddCompany: s2id_commission_account_regulatedEntity
+selectCompany: commission_account_regulatedEntity
+ddPlatform: s2id_commission_account_Platform
+selectPlatform: commission_account_Platform
+ddTradingGroup: s2id_commission_account_CodeTradingGroup
+selectTradingGroup: commission_account_CodeTradingGroup
+ddTradingCurrency: s2id_commission_account_TradingCurrency
+selectTradingCurrency: commission_account_TradingCurrency
+ddLeverage: s2id_commission_account_leverage
+selectLeverage: commission_account_leverage
+lnkApproveIbApplication: //a[starts-with(@href, '/manager/webit/forexcore/realprofile/approve_ib_application/')]
+txtIbAgreement: commission_account_ibAgreement
+btnApproveApplication: .btn-success
+lblSuccessIbApprovalMes: .alert.alert-success.alert-dismissable
+lnkTradingAccount: (//a[starts-with(@href, '/manager/webit/forexcore/tradingaccount/')])[3]
+tblRealAccounts: table table-custom table-list sonata-ba-list mb_admin_list_realaccounts
+lnkTradingAccounts1: (//a[@class="real-account"])[1]
+lnkTradingAccounts2: (//a[@class="real-account"])[2]
+btnAction: .btn.btn-default.dropdown-toggle
+lnkImpersonateUser: a[title="Impersonate User"]
+lnkEditInfoRequest: //a[starts-with(@href, "/manager/webit/forexcore/realprofileeditrequest")]
+txtEditInfoEmail: filter_realProfile__PortalUser__username_value
+btnEditInfoFilter: mb_admin_edit_info._requests_filter_btn
+tblEditInfoRequest: table table-custom table-list sonata-ba-list mb_admin_list_editinfo.requests
+ddActions: /html/body/div[1]/div/section[1]/div/nav/div[1]/div[2]/ul/li/a
+ddOptionsApproveAll: //a[starts-with(@href, "/manager/webit/forexcore/realprofileeditrequest/approve_all_edit_requests")]
+ddOptionsRejectAll: //a[starts-with(@href, "/manager/webit/forexcore/realprofileeditrequest/reject_all_edit_requests")]
+btnSubmit: btn_update_and_edit
+lnkDocuments: mb_admin_show_realaccounts_documents
+lnkMainInformation: mb_admin_show_realaccounts_maininformation
+uploadDocumentId2: dZUploadID2-upload
+lnkUserActions: //*[@id="top-buttons-nav"]/ul/li[8]/a
+lnkWithdrawalRequest: //*[@id="top-buttons-nav"]/ul/li[8]/ul/li[9]/a
+

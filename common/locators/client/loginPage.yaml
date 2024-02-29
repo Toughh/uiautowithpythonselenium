@@ -1,0 +1,6 @@
+txtUsername: _username
+txtPassword: show-password-field
+btnSecureLogin: submit
+txtAdminUsername: input[name='admin_username']
+txtAdminPassword: input[name='admin_password']
+btnLogin: .btn.btn-primary

@@ -1,0 +1,5 @@
+txtNewEmail: change_email_address_alternative_email_first
+txtConfirmEmail: change_email_address_alternative_email_second
+btnSubmit: change_email_address_submit
+txtOneTimePassword: one_time_pass_otp
+btnVerify: one_time_pass_submit

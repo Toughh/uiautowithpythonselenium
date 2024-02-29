@@ -1,0 +1,44 @@
+lnkComplianceArea: mb_admin_compliance_area
+lnkComplianceRealUsers: mb_admin_compliance_area_compliance_real_users
+lnkRejectedApplications: mb_admin_compliance_area_rejected_applications
+lblUsernameEmail: mb_admin_portaluser_username
+lblUsernameEmailRejected: mb_admin_rejected_applications_portaluser_username
+btnFilter: mb_admin_compliance_real_users_filter_btn
+btnFilterRejected: mb_admin_rejected_applications_filter_btn
+txtTradingAccounts: mb_admin_compliance_real_users_portaluser_tradingaccounts_login
+ddComplianceStatus: s2id_filter_compStatus_value
+ddSelectComplianceStatus: filter_compStatus_value
+lnkId: (//a[starts-with(@href, '/manager/compliance/')] [@class="sonata-link-identifier"])[1]
+lnkEmail: (//a[starts-with(@href, '/manager/compliance/')] [@class="sonata-link-identifier"])[2]
+lnkApproveApplication: //a[starts-with(@href, '/manager/compliance/approve_application')]
+tblComplianceRealUsers: table table-custom table-list sonata-ba-list mb_admin_list_compliancerealusers
+tblRejectedApplications: table table-custom table-list sonata-ba-list mb_admin_list_rejectedapplications
+ddClientRisk: select2-chosen-1
+ddSelectClientRisk: s554d599b97_clientRisk
+ddClientCategorization: select2-chosen-2
+ddSelectClientCategorization: s554d599b97_clientCategorization
+ddIdExpirationMonth: select2-chosen-2
+ddSelectIdExpirationMonth: s554d599b97_PortalUser__idExpirationDate_month
+ddIdExpirationDay: select2-chosen-4
+ddSelectIdExpirationDay: s554d599b97_PortalUser__idExpirationDate_day
+ddIdExpirationYear: select2-chosen-5
+ddSelectIdExpirationYear: s554d599b97_PortalUser__idExpirationDate_year
+ddPorExpirationMonth: select2-chosen-6
+ddSelectPorExpirationMonth: s554d599b97_PortalUser__porExpirationDate_month
+ddPorExpirationDay: select2-chosen-7
+ddSelectPorExpirationDay: s554d599b97_PortalUser__porExpirationDate_day
+ddPorExpirationYear: select2-chosen-8
+ddSelectPorExpirationYear: s554d599b97_PortalUser__porExpirationDate_year
+ddCompIdStatus: select2-chosen-9
+ddSelectCompIdStatus: s554d599b97_PortalUser__compIdStatus
+ddCompPorStatus: select2-chosen-10
+ddSelectCompPorStatus: s554d599b97_PortalUser__compPorStatus
+txtNoteComp: s554d599b97_PortalUser__noteComp
+lnkExtraDocuments: //*[@id="s554d599b97_UserCustomDocuments"]/div/a/i
+txtDocumentName: input[id="s554d599b97_UserCustomDocuments_1_documentName"]
+btnChooseFile: input[id="s554d599b97_UserCustomDocuments_1_documentPathFile_file"]
+lnkMissingDocuments: //a[starts-with(@href, '/manager/compliance/reject_application')]
+txtOtherReason: RejectApplication_reason
+cbNotifyClient: //*[@id="sonata-ba-field-container-reject-reason"]/div[3]/div/label
+btnUpdate: //button[@class="btn btn-success"][@name="btn_update_and_edit"]
+btnUpdateAndClose: //button[@class="btn btn-success"][@name="btn_update_and_list"]
